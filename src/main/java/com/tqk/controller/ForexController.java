@@ -31,7 +31,11 @@ public class ForexController {
 		if (exchange != null)
 		exchange.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
 		return exchange;
-		
+	}
+	
+	@RequestMapping("/")
+	public String home() {
+		return "hi";
 	}
 
 }
