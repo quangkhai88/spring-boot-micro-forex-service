@@ -10,8 +10,6 @@ public class SpringBootMicroForexServiceApplication {
 
 	public static void main(String[] args) {
 		
-		System.out.println("test");
-		
 		SpringApplication.run(SpringBootMicroForexServiceApplication.class, args);
 		
 	}
